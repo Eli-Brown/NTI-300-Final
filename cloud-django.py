@@ -3,12 +3,8 @@
 # add this to install script                                                                        # insert this where startup-script is set
 
 import os                                                                                           # adds access to os.system
-
 import subprocess                                                                                   # allows cpu spawn new processes, connect to their input/output/error pipes, and obtain their return codes
-
 import re
-
-
 
 print ('********** Setting up user django**********')                                               # log messaging
 os.system ('adduser -M django' + \
