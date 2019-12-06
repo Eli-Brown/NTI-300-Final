@@ -96,7 +96,7 @@ def setup_mod_wsgi():
         '</Directory>',
         'WSGIDaemonProcess project1 python-path=/opt/django/project1:/opt/django/django-env/lib/python2.7/site-packages/',
         'WSGIProcessGroup project1',
-        'WSGIScriptAlias / /opt/django/project1/project1/wsgi.py'
+        'WSGIScriptAlias / /opt/django/project1/project1/wsgi.py' 
         ]
     
     f = open('/etc/httpd/conf.d/django.conf',"w+")                                                  # open the file for input. Create it if it does not exist
